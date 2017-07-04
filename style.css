@@ -1,0 +1,754 @@
+/* all design of my site web /*748 line */
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    
+}
+.container{
+    width:100%;
+    margin: 0;
+}
+
+.clearfix{
+    clear:both;
+}
+/* start menu-top*/
+.menu-top{
+    overflow:hidden;
+    padding-left:0;
+    width:100%
+}
+.menu-top .menu{
+    background-image:url('../image/face.jpeg');
+    background-size:cover;
+    height:650px;
+    width:100%;
+}
+.menu-top .menu .main{
+    overflow:hidden;
+   background-color:#000
+}
+.menu-top .menu .main .im{
+    width:20%;
+    float:left;
+    position:relative;
+    right:20px;
+    left:80px;
+    padding-top:8px;
+}
+.menu-top .menu img{
+   padding-left:0px;
+    width:60px;
+    height: 60px;
+    border-radius:50%
+}
+.menu-top .menu .nav{
+    width:80%;
+    float:left;
+    overflow:hidden;
+}
+.menu-top .menu .nav ul{
+    float:right;
+    margin-right:5px;
+    padding:10px;
+    list-style:none;
+}
+.menu-top .menu  .nav ul li{
+    display:inline-block;
+    padding:8px !important;
+    font-size:15px;
+    text-transform: uppercase;
+    float:left;
+}
+
+.menu-top .menu .nav ul li a{
+    color:#dbd8d9;
+    font-weight:bold;
+    text-decoration:none;
+}
+.menu-top .menu .nav ul li a:hover{
+    color:white;
+    border-bottom:1.7px solid white;
+}
+.menu-top .menu .parg{
+    text-transform:capitalize;
+    padding-top:180px;
+    text-align:center;
+    overflow:hidden;
+    cursor:pointer;
+}
+.menu-top .menu .parg h2{
+    font-size:30px;
+    color:white;
+    font-weight:bold;
+    text-decoration:underline;
+    padding-bottom:50px;
+    cursor:text;
+}
+
+.menu-top .menu .parg p{
+    max-width: 900px;
+    margin:0 auto;
+    color:brown;
+    font-size:22px;
+    font-weight:bold;
+    line-height:1.8;
+    padding-bottom:70px;
+}
+.menu-top .menu .parg button{
+    padding:10px;
+    width:140px;
+    background-color:#4285f4;;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.menu-top .menu .parg button:hover{
+       box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+/* end menu-top*/
+
+
+/*start feature*/
+.feature{
+    overflow:hidden;
+    padding:15px;
+    background-color:#fff§;
+    height:500px
+
+}
+.feature .featur{
+    float:left;
+    overflow:hidden
+}
+.feature .featur h2{
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:20px;
+    font-size:30px;
+    color:#525c5d;
+}
+.feature .featur .feat{
+    float:left;
+    width:33.333333%;
+    text-align:center;
+    padding-top:70px;
+    padding-bottom:80px;
+    cursor:pointer;
+    overflow:hidden
+}
+
+
+.feature .featur .feat .fa{
+    display:inline-block;
+    font:normal normal normal 14px/1;
+    color:#fff;
+    font-size:50px;
+   
+}
+.feature .featur .feat .i{
+    background-color:#4285f4;
+   box-sizing:border-box; 
+    border-radius:80%;
+    width:100px;
+    padding:20px 0 20px 0;
+    margin:0 auto;
+}
+.feature .featur .feat h1{
+    color:#000;
+    font-size:28px;
+    text-transform:uppercase;
+}
+
+.feature .featur .feat p{
+    width:63.3333%;
+    margin: 0 auto;
+    line-height:1.5em;
+    overflow:hidden;
+    
+}
+
+/*end feature*/
+
+/* start about */
+
+.about{
+    padding-top:60px;
+    padding-bottom:30px;
+    overflow:hidden;
+    background-color:#f8f8f8;
+}
+
+.about .about-me .image{
+    float:left;
+    width:40%;
+}
+
+.about .about-me .image img{
+    width:100%;
+    height:380px
+}
+.about .about-me .progress{
+    float:left;
+    width:55%;
+}
+.about .about-me .progress h2{
+    margin:40px 0 20px 40px;
+    position:relative;
+    bottom:40px;
+    left:130px;
+    font-size:32px;
+    color:#525c5d;
+    cursor:pointer;
+    
+}
+.about .about-me .progress .technique{
+    margin-left:50px;
+    padding-bottom:20px;
+}
+.about .about-me .progress .technique h3{
+    color:#555;
+}
+.about .about-me .progress .technique div{
+    background-color:#f2f2f2;
+    height:16px;
+    border-radius:15px
+}
+.about .about-me .progress .technique div span{
+    background-color: deeppink;
+    height:16px;
+    display:block;
+    line-height:18px;
+    text-align: right;
+    color:white;
+    font-weight:bold;
+}
+.about .about-me button{
+   position: relative;
+    left:400px;
+    padding:10px;
+    width:140px;
+    border-radius:5px;
+    background-color:#4285f4;
+    color:#fff;
+    cursor:pointer
+}
+.about button:hover{
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+/*end about*/
+
+/* start services */
+
+.services{
+    padding-top:20px;
+    width:100%;
+    overflow:hidden;
+    background-image:url('../image/xx.jpeg');
+}
+
+.services .service{
+    text-transform:uppercase;
+    color:#525c5d;
+    overflow:hidden;
+
+}
+.services .service h3{
+    font-size:28px;
+    text-align:center;
+    padding-top:55px;
+    padding-bottom:10px;
+}
+.services .service .feet{
+   float: left;
+    width: 33.333333%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.services .service .feet h2{
+    
+    font-size:25px;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+.services .service .feet .fet{
+    background-color:#4285f4;
+    color:white;
+     font-size:35px;
+    border:1px solid #4285f4;
+    border-radius:90%;
+    height:50px;
+    width:50px;
+    padding:13px 10px 0 10px;
+    margin-left: 120px;
+    overflow:hidden;
+}
+.services .service .feet .fet i:hover{
+    color:#f00;
+}
+.services .service .feet p{
+    width:62.33333%;
+    line-height: 1.9;
+    float:left;
+    padding-top:15px;
+    margin: 0 auto;
+    margin-left:80px
+}
+.services .but {
+   text-align:center;
+    overflow:hidden;
+    position:relative;
+    bottom:40px;
+  
+}
+.services .but button{
+    width:140px;
+    padding:10px;
+    color:#555;
+    background:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.services .but button:hover{
+    color:#fff;
+    background-color:#4285f4;
+    height:40px;
+}
+/* end services */ 
+
+/* start work*/
+
+.work{
+    padding:20px;
+    overflow:hidden;
+    height:980px;
+}
+.work .mywork{
+    text-align:center;
+    overflow:hidden;
+}
+.work .mywork h2{
+    text-transform:capitalize;
+    padding:30px !important;
+    color:#525c5d;
+}
+
+.work .mywork ul{
+    list-style:none;
+    font-size:18px;
+     padding-top:30px;
+    padding-bottom:30px
+}
+.work .mywork ul li{
+    display:inline-block;
+    padding:10px;
+}
+.work .mywork ul li a{
+    color:#525c5d;
+    text-decoration:none;
+    text-transform:uppercase
+    
+}
+.work .mywork ul li a:hover{
+    color:#000
+}
+.work .mywork ul li .active{
+    background-color:#dddddd;
+    padding:13px;
+    border-radius:3px
+}
+
+.work .img-work{
+    width:1100px;
+    margin:0 auto;
+    overflow:hidden;
+    
+}
+.work .img-work img{
+   
+    padding:10px;
+    margin:15px;
+    float:left;
+    max-width:300px;
+    height:300px;
+    border-radius:10px
+}
+.work .img-work img:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 2px 2px #aaa
+}
+
+.work .bu {
+   text-align:center;
+    overflow:hidden;
+    padding:30px;
+  
+}
+.work .bu button{
+    width:140px;
+    height:40px;
+    padding:10px;
+    color:white;
+    background:#4285f4;
+    border-radius:5px;
+    cursor:pointer;
+}
+.work .bu button:hover{
+    color:#fff;
+    background-color:#4285f4;
+    height:41px;
+}
+/* end work*/
+
+
+/* start team */
+
+.team{
+    padding-top:30px;
+    padding-left:0px;
+    overflow:hidden;
+    background-color:#f3f3f3;
+}
+.team .team-work{
+    overflow:hidden;
+    text-align: center;
+}
+.team .team-work .teams{
+   float: left;
+    width:33.333333%;
+    overflow: hidden; 
+}
+.team .team-work .teams img{
+    width:200px;
+    height: 200px;
+    border-radius:50%;
+    border:2px solid #4285f4;
+}
+.team .team-work .teams img:hover{
+    width:220px;
+    height: 200px;
+    border-radius:110px;
+    border:2px solid #fff;
+}
+.team .team-work .teams h2{
+    font-size:30px;
+    color:#525c5d;
+}
+.team .team-work .teams h3{
+    font-size:20px;
+    color:#4285f4;
+}
+.team .team-work .teams h2, h3{
+    padding:10px;
+    line-height:1.8;
+    overflow:hidden;
+    margin-left:-15px
+}
+.team .team-work .teams h2, h3, p{
+    text-align: center;
+    width:100%;
+}
+.team .team-work .teams p{
+    line-height:1.8;
+    font-size:18px;
+    width:73.3333%;
+    margin-left:14%
+}
+.team .team-work .teams button{
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:10px;
+    width:140px;
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+    background-color:#4285f4;
+}
+.team .team-work .teams button:hover{
+    background-color:#4285f4;
+    height:43px;
+}
+/* end team */
+
+
+/* start team */
+
+.news{
+    padding-top:30px;
+    padding-left:0px;
+    overflow:hidden;
+    background-color:#fff;
+}
+.news .team-news{
+    overflow:hidden;
+    text-align: center;
+}
+.news .team-news h4 {
+    overflow:hidden;
+    text-align: center;
+    font-size:35px;
+    padding:40px;
+    color:#566;
+}
+.news .team-news .new {
+   float: left;
+    width:33.333333%;
+    overflow: hidden; 
+}
+.news .team-news .new  img{
+    width:200px;
+    height: 200px;
+    border-radius:15px;
+    border:2px solid #4285f4;
+    margin:15px;
+    
+}
+.news .team-news .new  h2{
+    font-size:20px;
+    color:#525c5d;
+}
+.news .team-news .new  h3{
+    font-size:18px;
+    color:#4285f4;
+}
+.news .team-news .new  h2, h3{
+    padding:10px;
+    line-height:1.8;
+    overflow:hidden;
+    margin-left:-15px
+}
+.news .team-news .new  h2, h3, p{
+    text-align: center;
+    width:100%;
+}
+.news .team-news .new  p{
+    line-height:1.8;
+    font-size:18px;
+    width:73.3333%;
+    margin-left:14%
+}
+.news .team-news .new  button{
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:10px;
+    width:140px;
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+    background-color:#4285f4;
+}
+.news .team-news .new button:hover{
+    background-color:#4285f4;
+    height:43px;    
+}
+/* end news */
+
+
+/* start contact me*/
+
+.contact-me{
+    background-image:url('../image/pexels.jpeg');
+    background-size:cover;
+    height:900px;
+     overflow:hidden;
+}
+.contact-me .contact{
+    color:white;
+    overflow:hidden;
+    width:1100px;
+    margin:0 auto;
+}
+
+.contact-me .contact  h3{
+    padding-top:50px;
+     padding-bottom:50px;
+    font-size:30px;
+    text-transform:uppercase;
+    color:#bbb;
+}
+.contact-me .contact .left{
+    float:left;
+    padding-top:40px;
+    overflow:hidden;
+    width:60%
+}
+
+
+.contact-me .contact .left h2{
+    padding:25px;
+    font-size:25px;
+}
+.contact-me .contact .left > p{
+    padding-left:5px;
+     padding-bottom:100px;
+    width:73.33333%;
+    line-height:2;
+    padding-bottom:100px
+}
+
+.contact-me .contact .left .adress{
+    float:left;
+    position:relative;
+    left:90px;
+    overflow:hidden;
+}
+.contact-me .contact .left .adress .pep{
+    overflow:hidden;
+    cursor:pointer;
+}
+.contact-me .contact .left .adress > p{
+    padding:12px;
+    width:93.33333%;
+    font-size:18px;
+    overflow:hidden;
+}
+
+.contact-me .contact .left .adress i{
+    float:left;
+    font-size:20px;
+    background-color:#4285f4;
+    width:50px;
+    height: 25px;
+    padding-top:14px;
+    padding-right:2px;
+    padding-bottom:8px;
+    padding-left:2px;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.contact-me .contact .left .adress > p > b{
+   position: relative;
+    top:10px;
+}
+
+.contact-me .contact .left .adress > p > .dd{
+    float:left;
+    overflow:hidden;
+        margin-left:27px
+}
+.contact-me .contact .left .adress > p > .ee{
+    overflow:hidden;
+    margin-left:8px
+}
+
+.contact-me .contact .right{
+    overflow:hidden;
+    width:40%;
+    display: block;
+}
+.contact-me .contact .right form{
+    overflow:hidden;
+    padding-top:120px;
+    color:white;
+    font-size:18px;
+    
+}
+.contact-me .contact .right form input[type="text"]
+{
+    display: block;
+    margin-top:20px;
+    padding:5px;
+    width:300px;
+    background-color:darkslategrey;
+    border:1px solid aqua;
+}
+.contact-me .contact .right form input[type="text"]:hover{
+    border:1px solid red;
+}
+.contact-me .contact .right form textarea:hover{
+    border:1px solid red;
+}
+.contact-me .contact .right form textarea{
+    display: block;
+    margin-top:20px;
+    padding:15px;
+    width:300px;
+    background-color:darkslategrey;
+    border:1px solid aqua;
+    height: 100px
+}
+.contact-me .contact .right form button{
+    padding:8px;
+    margin-top:120px;
+    background-color: #4285f4;
+    cursor:pointer;
+    color:white;
+    text-transform: capitalize;
+}
+.contact-me .contact .right form button:hover{
+     background-color: #4285f4;
+    height:44px;
+}
+
+/* end contact me*/
+
+/* start footer*/
+
+.footer{
+    background-color:#ccc;
+    padding:15px;
+    overflow:hidden;
+}
+.footer .copy a{
+    float:right;
+    padding-right:20px;
+    font-size:15px;
+    text-decoration:none;
+    overflow:hidden;
+}
+
+.footer .social{
+    text-align: center;
+    font-size:25px;
+    color:#666;
+    cursor:pointer
+}
+.footer .social i{
+    margin:10px;
+    overflow:hidden;
+}
+.footer .social i:hover{
+    color:#000
+}
+
+.footer .social .fa-youtube-play:hover{
+    color:firebrick
+}
+.footer .social .fa-facebook-official:hover{
+    color:darkblue;
+}
+
+.footer .social .fa-linkedin-square:hover{
+    color:#0094ba;
+}
+.footer .social .fa-envelope:hover{
+    color:#d74937
+}
+.top{
+    float:right;
+    padding-right:50px;
+    overflow:hidden;
+    position:static
+}
+
+.top i{
+    font-size:50px;
+    color:darkcyan
+}
+.top i:hover{
+    color:aqua;
+}
+
+
+
+
+
+/* end footer*/
